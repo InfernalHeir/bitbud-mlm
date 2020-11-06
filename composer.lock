@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "959c52abca488b4b422c3358ac147876",
+    "packages": [
+        {
+            "name": "coingate/coingate-php",
+            "version": "3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/coingate/coingate-php.git",
+                "reference": "df2ed981219e38557f88a7569c841cb252bed9c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/coingate/coingate-php/zipball/df2ed981219e38557f88a7569c841cb252bed9c0",
+                "reference": "df2ed981219e38557f88a7569c841cb252bed9c0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CoinGate\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CoinGate and contributors",
+                    "homepage": "https://github.com/coingate/coingate-php/graphs/contributors"
+                }
+            ],
+            "description": "CoinGate library for PHP",
+            "homepage": "https://coingate.com",
+            "keywords": [
+                "altcoin",
+                "bitcoin",
+                "coingate",
+                "gateway",
+                "litecoin",
+                "merchant",
+                "payment"
+            ],
+            "time": "2019-02-26T09:46:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

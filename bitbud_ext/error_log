@@ -1,0 +1,11 @@
+[19-Dec-2019 01:11:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/ohoouz9n/public_html/bitbud.biz/bitbud_ext/index.php on line 491
+[19-Dec-2019 04:04:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/ohoouz9n/public_html/bitbud.biz/bitbud_ext/index.php on line 496
+[24-Dec-2019 05:09:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/ohoouz9n/public_html/bitbud.biz/bitbud_ext/sign-up.php:6
+Stack trace:
+#0 {main}
+  thrown in /home2/ohoouz9n/public_html/bitbud.biz/bitbud_ext/sign-up.php on line 6
+[24-Dec-2019 05:10:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/ohoouz9n/public_html/bitbud.biz/bitbud_ext/sign-up.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/ohoouz9n/public_html/bitbud.biz/bitbud_ext/sign-up.php on line 7
+[25-Dec-2019 23:18:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/ohoouz9n/public_html/bitbud.biz/bitbud_ext/password_recovery.php on line 54

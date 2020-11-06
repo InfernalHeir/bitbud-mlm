@@ -1,0 +1,90 @@
+/**
+ * Top Alertjs v1.20190211
+ * By Christian Benitez
+ * Git: https://github.com/cbenitez/top-alertjs
+ * Last modified: 2019-02-11
+ */
+.top-alert-container{
+    width       : 100%;
+    padding     : 1.4rem 1.25rem;
+    position    : fixed;
+    display     : none;
+    top         : 0;
+    left        : 0;
+    right       : 0;
+    font-family : "Roboto", sans-serif;
+    text-align  : center;
+    z-index     : 9999;
+}
+
+.top-alert-close {
+    vertical-align    : middle;
+    cursor            : pointer;
+    margin-top        : -2px;
+    padding-left      : 13px;
+    font-size         : 1.8em;
+    line-height       : 20px;
+    float             : right;
+}
+
+.top-alert-close:after {
+    content : "\00d7";
+}
+
+.info{
+    color           : #ffffff;
+    background-color: #1e88e5;
+    border-color    : #1e88e5;
+}
+
+.error{
+    color           : #ffffff;
+    background-color: #eb5767;
+    border-color    : #eb5767;
+}
+
+.warning{
+    color           : #ffffff;
+    background-color: #ffb300;
+    border-color    : #ffb300;
+}
+
+.success{
+    color           : #ffffff;
+    background-color: #43a047;
+    border-color    : #43a047;
+}
+
+.confirm{
+    color           : #333333;
+    background-color: #e2e3e5;
+    border-color    : #e2e3e5;
+}
+
+.yes-btn-func, .no-btn-func{
+    margin-left: 10px;
+}
+
+.btn-info {
+    color           : #ffffff !important;
+    background-color: #1e88e5 !important;
+    border-color    : #1e88e5 !important;
+}
+
+.btn-warning {
+    color           : #ffffff !important;
+    background-color: #ffb300 !important;
+    border-color    : #ffb300 !important;
+}
+
+.btn-success {
+    color           : #ffffff !important;
+    background-color: #43a047 !important;
+    border-color    : #43a047 !important;
+}
+
+.btn-danger {
+    color           : #ffffff !important;
+    background-color: #eb5767 !important;
+    border-color    : #eb5767 !important;
+}
